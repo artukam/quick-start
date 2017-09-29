@@ -15,8 +15,7 @@ class App extends Component {
           A few things to note:
           <ul>
             <li>styling by default uses the Bootstrap framework;</li>
-            <li>Redux has been incorporate into this build; and</li>
-            <li>[insert testing framework requirement].</li>
+            <li>Redux has been incorporate into this build.</li>
           </ul>
         </p>
         <p>
