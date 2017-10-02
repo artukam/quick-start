@@ -19,4 +19,4 @@ To start server, simply run `npm start`.
 Twitter Bootstrap has been applied to general styling (reset and normalize).  This has been installed as a module and imported on the index.js level.  For individual styling, create a css file for each component and import it into that specific component for use.
 
 ### Redux
-Redux has been added to this app with default state set to blank and no actions included.
+Redux has been added to this app with default state set to blank and no actions included.  Redux-persist has also been implemented to ensure that state persists after reseting app.

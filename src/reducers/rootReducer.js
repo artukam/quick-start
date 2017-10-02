@@ -1,11 +1,12 @@
 const DEFAULT_STATE = {
-	//insert default state
-	state: {}
+    state: {}
 }
 
 export default (state=DEFAULT_STATE, action={type:null}) => {
-	switch(action.type){
-		default:
-			return state;
-	}
+    switch(action.type){
+        case 'persist/REHYDRATE':
+            return Object.assign({}, state, action.payload);
+        default:
+            return state;
+    }
 }
